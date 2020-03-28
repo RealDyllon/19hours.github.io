@@ -1,0 +1,78 @@
+{
+  "schema": "iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-3",
+  "data": [
+    {
+      "ue_pr": {
+        "schema": "iglu:com.snowplowanalytics.snowplow/unstruct_event/jsonschema/1-0-0",
+        "data": {
+          "schema": "iglu:com.snowplowanalytics.mobile/screen_view/jsonschema/1-0-0",
+          "data": {
+            "id": "FE432162-D4C7-457E-A184-DB161D13D864",
+            "previousName": "TraceTogether.OnboardingStep2bViewController",
+            "previousType": "Default",
+            "name": "TraceTogether.PogoInstructionsViewController",
+            "type": "Default",
+            "previousId": "5A323448-A8E6-433B-87B8-750A156F8964"
+          }
+        }
+      },
+      "vp": "1125x2436",
+      "eid": "1deb3174-7b02-4126-a0bc-a594e9cad4ef",
+      "p": "mob",
+      "co": {
+        "schema": "iglu:com.snowplowanalytics.snowplow/contexts/jsonschema/1-0-1",
+        "data": [
+          {
+            "schema": "iglu:com.snowplowanalytics.snowplow/mobile_context/jsonschema/1-0-1",
+            "data": {
+              "osType": "ios",
+              "osVersion": "13.2.1",
+              "networkTechnology": "CTRadioAccessTechnologyLTE",
+              "appleIdfv": "FE432162-D4C7-457E-A184-DB161D13D864",
+              "carrier": "Singtel",
+              "deviceManufacturer": "Apple Inc.",
+              "networkType": "wifi",
+              "deviceModel": "iPhone"
+            }
+          },
+          {
+            "schema": "iglu:com.snowplowanalytics.mobile/application/jsonschema/1-0-0",
+            "data": {
+              "build": "12",
+              "version": "1.3"
+            }
+          },
+          {
+            "schema": "iglu:com.snowplowanalytics.snowplow/client_session/jsonschema/1-0-1",
+            "data": {
+              "previousSessionId": null,
+              "firstEventId": "4df09c33-a590-402c-8918-5c9221103a16",
+              "sessionId": "33526e15-7391-46b9-8894-52eff63f27e6",
+              "userId": "08e0bf2c-7b08-482c-b741-a2c3c6dae629",
+              "sessionIndex": 1,
+              "storageMechanism": "SQLITE"
+            }
+          },
+          {
+            "schema": "iglu:com.snowplowanalytics.mobile/screen/jsonschema/1-0-0",
+            "data": {
+              "topViewController": "TraceTogether.PogoInstructionsViewController",
+              "id": "3713D813-E48D-4237-B7CA-9290B749FE59",
+              "name": "TraceTogether.PogoInstructionsViewController",
+              "type": "Default",
+              "viewController": "TraceTogether.PogoInstructionsViewController"
+            }
+          }
+        ]
+      },
+      "stm": "1482241314519",
+      "dtm": "1485245319938",
+      "tv": "ios-1.1.2",
+      "tna": "Tracker",
+      "e": "ue",
+      "lang": "en-SG",
+      "aid": "sg.gov.tech.bluetrace",
+      "res": "1125x2436"
+    }
+  ]
+}
